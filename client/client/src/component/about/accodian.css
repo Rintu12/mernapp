@@ -1,0 +1,50 @@
+.accordian-button{
+     
+      margin-top: 40px;
+      margin-left: 80px;
+      border: none;
+    width: 75%;
+    height: 65px;
+    display: flex;
+    justify-content: space-between;
+    background-color: whitesmoke;
+    box-shadow: -4px -3px 1px 0px rgba(24,193,204,0.75);
+-webkit-box-shadow: -4px -3px 1px 0px rgba(24,193,204,0.75);
+-moz-box-shadow: -4px -3px 1px 0px rgba(24,193,204,0.75);
+  border-radius: 1rem;
+   }
+   .accordian-title{
+    display: flex;
+    align-content: flex-start;
+   margin-top: 0px;
+   font-size: 20px;
+   font-weight: 500;
+   }
+   /**  this is active class*/
+   /* .accordian-button:hover{
+   background-color: darkgrey;
+    color: white;
+   } */
+   .accodian-content{
+    background-color: white;
+    overflow:hidden;
+    transition: max-height 0.5s  ease-in-out;
+      padding-left: 85px;
+   }
+   /* .active{
+   background-color: dimgray;
+   } */
+   .accordian-text{
+     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+     color: black;
+   }
+   .accordian{
+     overflow: hidden;
+   }
+   .roted{
+   transform: rotate(90deg);
+   transition: 0.3s ease-out ;
+   }
+   .accordian_roted{
+     color: white;
+   }
